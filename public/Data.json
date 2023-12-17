@@ -1,0 +1,84 @@
+[
+    {
+      "name": "All",
+      "image": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/blog-images-prod/public/files/1669992976522.jpg",
+      "text": "Learn the fundamentals of programming languages and concepts.",
+      "title": "Programming 101",
+      "date": "2023-01-15",
+      "type": "All"
+    },
+    {
+      "name": "Css",
+      "image": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/blog-images-prod/public/files/1669700493261.png",
+      "text": "Explore essential data structures and algorithms for efficient programming.",
+      "title": "Algorithms Masterclass",
+      "date": "2023-02-10",
+      "type": "Css"
+    },
+    {
+      "name": "Software QA & Testing",
+      "image": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/blog-images-prod/public/files/1696226090993.jpeg",
+      "text": "Build web applications using modern frameworks and technologies.",
+      "title": "Web Dev Bootcamp",
+      "date": "2023-03-22",
+      "type": "Software QA & Testing"
+    },
+    {
+      "name": "Database Design",
+      "image": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/blog-images-prod/public/files/1693318086202.png",
+      "text": "Design and optimize databases for efficient data storage and retrieval.",
+      "title": "Database Workshop",
+      "date": "2023-04-18",
+      "type": "Database Design"
+    },
+    {
+      "name": "Programming Career",
+      "image": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/blog-images-prod/public/files/1686368859721.jpg",
+      "text": "Introduction to machine learning algorithms and applications.",
+      "title": "ML Fundamentals",
+      "date": "2023-05-12",
+      "type": "Programming Career"
+    },
+    {
+      "name": "C Programming",
+      "image": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/blog-images-prod/public/files/1669676678947.png",
+      "text": "Deploy and manage applications in the cloud using popular platforms.",
+      "title": "Cloud Essentials",
+      "date": "2023-06-08",
+      "type": "C Programming"
+    },
+    {
+      "name": "Resume",
+      "image":"https://phero-web.nyc3.cdn.digitaloceanspaces.com/blog-images-prod/public/files/1664770323714.png",
+      "text": "Learn testing strategies and tools for robust software development.",
+      "title": "Testing Mastery",
+      "date": "2023-07-03",
+      "type":"Resume"
+    },
+    {
+      "name": "Machine Learning",
+      "image": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/blog-images-prod/public/files/1665434111373.jpg",
+      "text": "Understand essential cybersecurity concepts and practices.",
+      "title": "Cybersecurity Basics",
+      "date": "2023-08-20",
+      "type": "Maxhine Learing"
+
+    },
+    {
+      "name": "Git and Github",
+      "image": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/blog-images-prod/public/files/1666064523220.jpg",
+      "text": "Build cross-platform mobile applications for iOS and Android.",
+      "title": "Mobile Dev Workshop",
+      "date": "2023-09-14",
+      "type": "Git and Github"
+    },
+    {
+      "name": "Programming ",
+      "image": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/blog-images-prod/public/files/1666736516851.png",
+      "text": "Implement DevOps principles for seamless collaboration and continuous integration.",
+      "title": "DevOps Bootcamp",
+      "date": "2023-10-05",
+      "type": "Programming"
+    }
+  ]
+  

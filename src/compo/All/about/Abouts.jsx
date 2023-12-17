@@ -1,0 +1,109 @@
+const datas =  [
+    {
+        "name": "Jhankar Mahbub",
+        "image" : "https://i.ibb.co/7VDLncG/1670513031775-Jhankar-Mahbub.png",
+        "boss" : "My Boss"
+      },
+    
+    {
+        "name": "ABDUR RAKIB",
+        "image" : "https://i.ibb.co/5vYgFM1/1693801048071-IMG-0149-1.png"
+      
+      },
+      {
+        "name": "Chayti Saha",
+        "image" : "https://i.ibb.co/5YXRgJc/1685703514873-Chayti-Saha.png"
+      },
+      {
+          "name":"Azizul Islam Milton",
+          "image": "https://i.ibb.co/D8r0XYH/1685703442589-Azizul-Islam-Milton.png "
+      },
+      {
+             "name": "MD Sakib Ahmed",
+             "image": "https://i.ibb.co/rxjf1wM/1685703431184-MD-Sakib-Ahmed.png "
+      },
+      {
+        "name": "Mohammad Shabaj Khan",
+        "image": "https://i.ibb.co/58sVvjY/1685703425714-Mohammad-Shabaj-Khan.png "
+      },
+      {
+        "name":"Sagar Biswas",
+        "image": "https://i.ibb.co/3fSdN7G/1685703415360-Sagar-Biswas.png "
+      },
+      {
+        "name": "MD GIAS UDDIN",
+        "image": "https://i.ibb.co/JpRK3f4/1685703407535-MD-GIAS-UDDIN.png"
+      },
+      {
+        "name":"Mohammad Rahatul Aseaikin",
+        "image": "https://i.ibb.co/zXNcScv/1685703362946-Mohammad-Rahatul-Aseaikin-Shovo.png"
+      },
+      {
+        "name":"Md Abdul Wadud Prince",
+        "image":"https://i.ibb.co/ZBwr4rg/1685703342857-Abdul-Wadud-Prince.png"
+      },
+      {
+        "name": "Abu Sufian",
+        "image": "https://i.ibb.co/fdPxGfW/1685703280947-Abu-Sufian.png"
+      },
+      {
+        "name": "Mujahid Islam",
+        "image": "https://i.ibb.co/F5PPF5G/1685703271719-Mujahid-Islam.png"
+      },
+      {
+        "name": "Muktadir Hassan ",
+        "image": "https://i.ibb.co/Z6f4nkx/1685703257957-Muktadir-Hassan.png"
+      },
+      {
+        "name":"Anwar Hussen",
+        "image":"https://i.ibb.co/7rL3cJ8/1685703235249-Anwar-Hussen.png"
+      },
+      {
+        "name":"Karina Islam",
+        "image":"https://i.ibb.co/MfjCvDN/1670514423957image-removebg-preview-22-1.png"
+      },
+      {
+        "name":"Mirza Showvik",
+        "image":"https://i.ibb.co/YjKzV10/1670513006151-Mirza-Showvik.png"
+      },
+      {
+        "name":"Shafia Rahman Chowdhury",
+        "image":"https://i.ibb.co/sQdGXLh/1670511697823-Shafia-Rahman-Chowdhury.png"
+      },
+      {
+        "name":"Md Zahid Hossain",
+        "image": "https://i.ibb.co/bs0V3Qh/1670500464960-Md-Zahid-Hossain.png"
+      },
+      {
+        "name":"Me",
+        "image":"https://i.ibb.co/VQ3x4Ck/1648123179044-Profile-Avatar.png"
+      }
+];
+
+const Abouts = () => {
+   
+   
+    return (
+        <div >
+            <h1  className="text-center text-6xl font-bold my-[100px] text-yellow-50">Meet Our Team_</h1>
+            <div > 
+           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 ">
+           {
+                datas.map((img,id)=> 
+                 <div  key={id} className="w-full  mb-5">
+                  
+                     <img id="hov" className="absolute mt-7 ml-2" src="team.png" alt="" />
+                      <img className="relative my-3" id="img" src={img.image} alt="" />
+                       <h1 className="text-white text-center">{img.boss}</h1>
+                      <h1 className="text-white text-center text-xl font-bold">{img.name}</h1>
+                   
+                
+                 </div>)
+            }
+           </div>
+            </div>
+        </div>
+    );
+};
+
+export default Abouts;
